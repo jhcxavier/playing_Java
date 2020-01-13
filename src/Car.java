@@ -15,15 +15,17 @@ public class Car {
 
     public Car(double inputAvarageMPG,
                String inputLicensePlate,
-               Color inputpaintColor,
+               Color inputPaintColor,
                boolean inputAreTaillightsWorking){
         this.avarageMilesPerGallon = inputAvarageMPG;
         this.licensePlate = inputLicensePlate;
-        this.paintColor = inputpaintColor;
+        this.paintColor = inputPaintColor;
         this.areTailingWorking = inputAreTaillightsWorking;
     }
     public void changePaintColor(Color newPaintColor){
         this.paintColor = newPaintColor;
     }
-
+    public void speedingUp(double currentSpeed){
+        currentSpeed += 100;
+    }
 }
