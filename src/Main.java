@@ -9,10 +9,27 @@ public class Main{
 
     public static void main(String[] args){
 
-        String s = "dog";
-        String replacedF = s.replace('d', 'f');
-        System.out.println(replacedF);
+//        String s = "dog";
+//        String replacedF = s.replace('d', 'f');
+//        System.out.println(replacedF);
+        Dog myDog = new Dog(
+                "Big",
+                "Labrador",
+                false,
+                Color.yellow,
+                3);
 
+        myDog.bark();
+        int dogAge = myDog.getDogYears();
+        System.out.println(dogAge + " dog years old");
+        myDog.fetch();
+        myDog.fetch();
+        myDog.fetch();
+        myDog.fetch();
+
+        System.out.println("The dog size is: "+myDog.size);
+        System.out.println("Is the dog dangerous? "+myDog.dangerousDog);
+        System.out.println("The dog color is: "+ myDog.dogColor.toString());
 
 
 
