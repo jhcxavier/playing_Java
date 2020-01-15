@@ -10,20 +10,31 @@ public class Main{
 
     public static void main(String[] args){
 
-        //exponential number
-        double power = Math.pow(5, 3);
-        System.out.println(power);
+        Coin c = new Coin();
+        System.out.println("Initial: " + c.getFaceUp());
 
-        //square root
-        double squareRoot = Math.sqrt(64);
-        System.out.println(squareRoot);
+        for(int i = 0; i < 10; i++) {
+           c.flip();
+           System.out.println("After Flip: " + c.getFaceUp());
+        }
 
-        // create a random number
-        Random rand = new Random();
-        int randomNumber = rand.nextInt();
-        int randomNUmberWithBound = rand.nextInt(10);
-        System.out.println(randomNumber);
-        System.out.println(randomNUmberWithBound);
+
+
+
+//        //exponential number
+//        double power = Math.pow(5, 3);
+//        System.out.println(power);
+//
+//        //square root
+//        double squareRoot = Math.sqrt(64);
+//        System.out.println(squareRoot);
+//
+//        // create a random number
+//        Random rand = new Random();
+//        int randomNumber = rand.nextInt();
+//        int randomNUmberWithBound = rand.nextInt(10);
+//        System.out.println(randomNumber);
+//        System.out.println(randomNUmberWithBound);
 
 //        //For Loop
 //        System.out.println("FOR LOOP");
