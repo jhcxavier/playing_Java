@@ -10,8 +10,15 @@ public class Main{
 
     public static void main(String[] args){
 
-        Dice c = new Dice();
-        Scanner in = new Scanner(System.in);
+        Dice2 dice = new Dice2();
+        System.out.println("Previous roll: "+ dice.previousDice);
+        System.out.println(dice.roll());
+        System.out.println("Previous roll: "+ dice.previousDice);
+        System.out.println(dice.roll());
+        System.out.println("Previous roll: "+ dice.previousDice);
+
+//        Dice c = new Dice();
+//        Scanner in = new Scanner(System.in);
 //        for(int i =0; i>1; i++) {
 //            c.flip();
 //        System.out.println("Dice 1 " + c.getFaceUp());
@@ -24,12 +31,12 @@ public class Main{
 
 
 //        for(int i = 0; i < 1; i++) {
-           c.rollDice();
-           System.out.println("Dice 1: " + c.getDiceResult());
-
-           c.rollDice();
-           System.out.println("Dice 2: " + c.getDiceResult());
-//        }
+//           c.rollDice();
+//           System.out.println("Dice 1: " + c.getDiceResult());
+//
+//           c.rollDice();
+//           System.out.println("Dice 2: " + c.getDiceResult());
+////        }
 
 
 
