@@ -10,13 +10,26 @@ public class Main{
 
     public static void main(String[] args){
 
-        Coin c = new Coin();
-        System.out.println("Initial: " + c.getFaceUp());
+        Dice c = new Dice();
+        Scanner in = new Scanner(System.in);
+//        for(int i =0; i>1; i++) {
+//            c.flip();
+//        System.out.println("Dice 1 " + c.getFaceUp());
+//
+//        }
+//        for(int j =0; j>1; j++) {
+//            c.flip();
+//            System.out.println("Dice 2 " + c.getFaceUp());
+//        }
 
-        for(int i = 0; i < 10; i++) {
-           c.flip();
-           System.out.println("After Flip: " + c.getFaceUp());
-        }
+
+//        for(int i = 0; i < 1; i++) {
+           c.rollDice();
+           System.out.println("Dice 1: " + c.getDiceResult());
+
+           c.rollDice();
+           System.out.println("Dice 2: " + c.getDiceResult());
+//        }
 
 
 
