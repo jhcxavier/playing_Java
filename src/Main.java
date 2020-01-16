@@ -10,12 +10,23 @@ public class Main{
 
     public static void main(String[] args){
 
-        Dice2 dice = new Dice2();
-        System.out.println("Previous roll: "+ dice.previousDice);
-        System.out.println(dice.roll());
-        System.out.println("Previous roll: "+ dice.previousDice);
-        System.out.println(dice.roll());
-        System.out.println("Previous roll: "+ dice.previousDice);
+        BankAccount myBankAccount = new BankAccount(4141, 100);
+//        System.out.println(myBankAccount);
+        myBankAccount.deposit(-60);
+        myBankAccount.withdraw(150);
+
+        myBankAccount.deposit(100);
+        myBankAccount.withdraw(200);
+
+
+
+
+//        Dice2 dice = new Dice2();
+//        System.out.println("Previous roll: "+ dice.previousDice);
+//        System.out.println(dice.roll());
+//        System.out.println("Previous roll: "+ dice.previousDice);
+//        System.out.println(dice.roll());
+//        System.out.println("Previous roll: "+ dice.previousDice);
 
 //        Dice c = new Dice();
 //        Scanner in = new Scanner(System.in);
