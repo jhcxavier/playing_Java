@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed07c034-fd8c-4ec8-9dc2-4203f08130a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dog2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Anonima.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Answerable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -83,25 +84,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="243" key="GridCell.Tab.0.bottom" timestamp="1579205768750">
+    <state width="1398" height="243" key="GridCell.Tab.0.bottom" timestamp="1579207624230">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1579205768750" />
+    <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1579207624230" />
     <state width="1398" height="243" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.23.2560.1417@0.0.1440.900" timestamp="1579029142749" />
-    <state width="1398" height="243" key="GridCell.Tab.0.center" timestamp="1579205768747">
+    <state width="1398" height="243" key="GridCell.Tab.0.center" timestamp="1579207624227">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1579205768747" />
+    <state width="1398" height="243" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1579207624227" />
     <state width="1398" height="243" key="GridCell.Tab.0.center/0.0.1440.900/1440.23.2560.1417@0.0.1440.900" timestamp="1579029142739" />
-    <state width="1398" height="243" key="GridCell.Tab.0.left" timestamp="1579205768745">
+    <state width="1398" height="243" key="GridCell.Tab.0.left" timestamp="1579207624226">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1579205768745" />
+    <state width="1398" height="243" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1579207624226" />
     <state width="1398" height="243" key="GridCell.Tab.0.left/0.0.1440.900/1440.23.2560.1417@0.0.1440.900" timestamp="1579029142737" />
-    <state width="1398" height="243" key="GridCell.Tab.0.right" timestamp="1579205768748">
+    <state width="1398" height="243" key="GridCell.Tab.0.right" timestamp="1579207624229">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="243" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1579205768748" />
+    <state width="1398" height="243" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.2560.1440@0.0.1440.900" timestamp="1579207624229" />
     <state width="1398" height="243" key="GridCell.Tab.0.right/0.0.1440.900/1440.23.2560.1417@0.0.1440.900" timestamp="1579029142747" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1579126476312">
       <screen x="0" y="0" width="1440" height="900" />

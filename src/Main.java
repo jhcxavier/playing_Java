@@ -10,26 +10,37 @@ public class Main{
 
     public static void main(String[] args){
 
-        Dog2 d = new Dog2();
-        Cat c = new Cat();
+        Answerable phone = () -> {return "Hello";};
+        System.out.println(phone.answer());
 
-        if(c instanceof Pet){
-            c.play();
-        }
-        if (d instanceof Pet) {
-            d.play();
-        }
 
-        Pet p;
-        Random rand = new Random();
-        int n = rand.nextInt(2);
 
-        if(n == 0){
-            p = new Dog2();
-        }else{
-            p = new Cat();
-        }
-        p.play();
+       Anonima isOdd = n -> n % 2 != 0;
+       System.out.println(isOdd.anything(2));
+
+        Anonima isEven = n -> n % 2 == 0;
+        System.out.println(isEven.anything(2));
+
+//        Dog2 d = new Dog2();
+//        Cat c = new Cat();
+//
+//        if(c instanceof Pet){
+//            c.play();
+//        }
+//        if (d instanceof Pet) {
+//            d.play();
+//        }
+//
+//        Pet p;
+//        Random rand = new Random();
+//        int n = rand.nextInt(2);
+//
+//        if(n == 0){
+//            p = new Dog2();
+//        }else{
+//            p = new Cat();
+//        }
+//        p.play();
 
 
 //        Insect insect = new Insect(5, 6);
