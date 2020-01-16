@@ -10,13 +10,32 @@ public class Main{
 
     public static void main(String[] args){
 
-        BankAccount myBankAccount = new BankAccount(4141, 100);
-//        System.out.println(myBankAccount);
-        myBankAccount.deposit(-60);
-        myBankAccount.withdraw(150);
+        Insect insect = new Insect(5, 6);
+        Spider spider = new Spider(13, true);
+        Cricket cricket = new Cricket(4, 12.4);
 
-        myBankAccount.deposit(100);
-        myBankAccount.withdraw(200);
+        insect.crawl();
+        insect.says();
+
+        spider.crawl();
+        spider.says();
+
+        cricket.crawl();
+        cricket.says();
+        cricket.jump();
+
+        if(spider instanceof Insect && spider instanceof Spider){
+            System.out.println("Spider is an insect and Spider");
+        }
+
+
+//        BankAccount myBankAccount = new BankAccount(4141, 100);
+////        System.out.println(myBankAccount);
+//        myBankAccount.deposit(-60);
+//        myBankAccount.withdraw(150);
+//
+//        myBankAccount.deposit(100);
+//        myBankAccount.withdraw(200);
 
 
 
