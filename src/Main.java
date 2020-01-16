@@ -10,23 +10,45 @@ public class Main{
 
     public static void main(String[] args){
 
-        Insect insect = new Insect(5, 6);
-        Spider spider = new Spider(13, true);
-        Cricket cricket = new Cricket(4, 12.4);
+        Dog2 d = new Dog2();
+        Cat c = new Cat();
 
-        insect.crawl();
-        insect.says();
-
-        spider.crawl();
-        spider.says();
-
-        cricket.crawl();
-        cricket.says();
-        cricket.jump();
-
-        if(spider instanceof Insect && spider instanceof Spider){
-            System.out.println("Spider is an insect and Spider");
+        if(c instanceof Pet){
+            c.play();
         }
+        if (d instanceof Pet) {
+            d.play();
+        }
+
+        Pet p;
+        Random rand = new Random();
+        int n = rand.nextInt(2);
+
+        if(n == 0){
+            p = new Dog2();
+        }else{
+            p = new Cat();
+        }
+        p.play();
+
+
+//        Insect insect = new Insect(5, 6);
+//        Spider spider = new Spider(13, true);
+//        Cricket cricket = new Cricket(4, 12.4);
+//
+//        insect.crawl();
+//        insect.says();
+//
+//        spider.crawl();
+//        spider.says();
+//
+//        cricket.crawl();
+//        cricket.says();
+//        cricket.jump();
+//
+//        if(spider instanceof Insect && spider instanceof Spider){
+//            System.out.println("Spider is an insect and Spider");
+//        }
 
 
 //        BankAccount myBankAccount = new BankAccount(4141, 100);
